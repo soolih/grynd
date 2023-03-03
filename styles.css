@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    background: #16181D;
+    background-image:url(images/bg-image.svg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px 30px 0 30px;
+    display: block;
+    text-align: center;
+    
+}
+header{
+    text-align: left;
+    margin-bottom: 50px;
+}
+nav, .hero-two{
+    display: none;
+}
+h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    
+    
+    color: #FFFFFF;
+}
+p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    
+
+    color: #FFFFFF;
+}
+button{
+    background: #9E7666;
+    width: 70%;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.hero{
+    width: 100%;
+}
+@media screen and (min-width: 676px) {
+    .container{
+        padding: 30px 67.9px 0 67.9px;
+    }
+}
+@media screen and (min-width: 776px) {
+    .container{
+        padding: 30px 127px 0 127px;
+    }
+}
+
+
+@media screen and (min-width: 1117px) {
+    nav{
+        display: block;
+        
+    }
+    .hero-two{
+        display: block;
+        width: 620px;
+        margin-top: -100px;
+       
+        
+    }
+    .hero{
+        display:none
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    nav ul{
+        display:flex;
+        
+        
+    }
+    li{
+        list-style: none;
+        margin-left: 40px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height, or 133% */
+
+
+        color: #FFFFFF;
+    }
+    .container{
+        padding: 28px 100px 0 100px;
+        text-align: left;
+        background-image: url(images/Bg-Image2.svg);
+       background-size: 701px;
+       background-position:top 360px left 180px;
+        
+    }
+    .container-sub{
+        display: flex;
+    }
+   .container-one{
+    margin-top: 80px;
+   
+   }
+   button{
+    width:50%;
+   }
+   h2{
+    margin-bottom: 20px;
+   }
+   p{
+    margin-bottom: 60px;
+   }
+
+}
+   
