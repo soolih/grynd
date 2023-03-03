@@ -17,6 +17,9 @@ body{
     text-align: center;
     
 }
+.bg-color{
+    display:none
+}
 header{
     text-align: left;
     margin-bottom: 50px;
@@ -141,6 +144,25 @@ button{
    }
    p{
     margin-bottom: 60px;
+   }
+   .bg-color{
+    display: flex;
+    background: #28EF48;
+    padding: 19px 25px 19px 47px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+   }
+   .one{
+    background: #CE1E1E;
+    width: 152px;
+    height: 64px;
+   }
+   .two{
+    background: #212D97;
+    width: 555px;
+    height: 64px;
+
    }
 
 }
